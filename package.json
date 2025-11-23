@@ -1,0 +1,31 @@
+{
+  "name": "elysia-d11r",
+  "version": "1.0.7",
+  "description": "A dynamic controller loader for Elysia.js",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "up:npm": "bun run build && npm publish"
+  },
+  "keywords": [
+    "elysia",
+    "controller",
+    "dynamic",
+    "loader"
+  ],
+  "author": "ThinhPhoenix",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "elysia": "^1.0.0"
+  },
+  "peerDependencies": {
+    "elysia": "^1.0.0"
+  }
+}
