@@ -1,6 +1,6 @@
 {
   "name": "elysia-d11r",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A dynamic controller loader for Elysia.js",
   "type": "module",
   "main": "dist/index.js",
